@@ -12,4 +12,4 @@ RUN cd /tmp && \
 	rm -rf /tmp/envconsul*
 
 ENTRYPOINT ["/run.sh"]
-CMD ["envconsul", "bash"]
+CMD ["npm", "start"]
